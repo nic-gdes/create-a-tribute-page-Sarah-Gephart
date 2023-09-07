@@ -3,6 +3,35 @@ body {
     margin: 0;
     padding: 0;
     color: white;
+    gap: 1rem;
+}
+h1 {
+    text-align: center;
+    margin: 25px;
+}
+h2 {
+    text-align: center;
+    margin: 25px;
+}
+p {
+    margin: 50px;
+}
+#title {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 1rem;
+}
+#tribute-link {
+    color: white;
+    text-decoration: none;
+}
+#tribute-link:hover {
+    color: rgb(255, 172, 47);
+    transition: ease-in-out .5s;
+}
+#footer {
+    text-align: center;
+    margin: 0;
 }
 .hero {
     position: relative;
@@ -33,11 +62,6 @@ body {
     text-align: center;
     margin: 0.625rem;
 }
-#title {
-    font-size: 2rem;
-    font-weight: 200;
-    margin-top: 1rem;
-}
 .albums {
     display: flex;
     flex-wrap: wrap;
@@ -54,6 +78,10 @@ body {
 }
 img {
     width: 300px;
+}
+#caption-link:hover {
+    color: rgb(255, 172, 47);
+    transition: ease-in-out .5s;
 }
 
 
